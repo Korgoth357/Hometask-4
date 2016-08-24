@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00f;
+}
+
+.logo-img img,
+.main-img img {
+    display: block;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+ul {                                            
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #000;
+    line-height: 20px;
+    list-style: none;
+}
+
+ul:after {
+    display: block;
+    float: none;
+    clear: both;
+    content: ' ';
+}
+
+.menu > li {
+    position: relative;
+    width: 150px;
+    float: left;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 150px;
+}
+
+.submenu > li {
+    display: block;
+}
+
+.submenu > li > a {
+    display: block;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu > li:hover > .submenu {
+    display: block;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden; 
+}
+
+article {
+    width: 60%;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: left;
+    background-color: #fff;
+}
+
+article,
+section {
+    text-align: center;
+}
+
+h4 {
+    padding: 20px;
+}
+
+.left-col {
+    width: 20%;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: left;
+    background: #808080;
+}
+
+.right-col {
+    width: 20%;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: right;
+    background: #808080;
+}
+
+footer {
+    width: 100%;
+    background-color: #00f;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+
+
